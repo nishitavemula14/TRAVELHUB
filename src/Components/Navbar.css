@@ -1,0 +1,43 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 18px 8%;
+    background: #12324a;
+    color: white;
+}
+
+
+.logo {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    font-size: 22px;
+    font-weight: 700;
+}
+
+
+.bus-logo {
+    padding: 6px 8px;
+    border-radius: 6px;
+    background: #facc15;
+    color: #12324a;
+    font-size: 13px;
+}
+
+
+.nav-links {
+    display: flex;
+    gap: 18px;
+    align-items: center;
+}
+
+
+@media (max-width: 620px) {
+
+    .navbar,
+    .nav-links {
+        align-items: flex-start;
+        flex-direction: column;
+    }
+}
