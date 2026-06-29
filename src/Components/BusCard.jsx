@@ -74,6 +74,7 @@ export default function BusCard({ bus }) {
                item-center
                mt-4 md:mt-5
                py-2 md:py-3
+               px-3 md:px-5
                text-sm sm:text-base
                bg-blue-400
                text-black

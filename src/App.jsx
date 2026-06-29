@@ -8,6 +8,7 @@ import { BookingContext } from "./Context/BookingContext.jsx";
 import { buses } from "./data/Buses.js";
 import BusDetails from "./pages/BusDetails.jsx";
 import BusSearch from "./pages/BusSearch.jsx";
+import NotFound from "./pages/NotFound.jsx";
 
 export default function App() {
   const [booked, setBooked] = useState(0);
@@ -28,9 +29,9 @@ export default function App() {
         <Routes>
           <Route path="/" element={<BusSearch />} />
           <Route path="/bus/:id" element={<BusDetails />} />
+          <Route path="*" element={<NotFound />} />
         </Routes>
 
-        {/* Toast Notifications */}
         <ToastContainer
           position="top-right"
           autoClose={3000}

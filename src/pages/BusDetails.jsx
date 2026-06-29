@@ -157,10 +157,10 @@ export default function BusDetails() {
                         disabled={cannotDecrease}
                         onClick={decreaseTickets}
                         className="
-                          w-10
-                          h-10
-                          sm:w-12
-                          sm:h-12
+                          w-6
+                          h-6
+                          sm:w-8
+                          sm:h-8
                           rounded-lg
                           bg-blue-500
                           text-white
@@ -175,8 +175,8 @@ export default function BusDetails() {
                     <span
                         className="
                       text-2xl
-                      sm:text-3xl
-                      font-bold
+                      sm:text-xl
+                      font-semibold
                       "
                     >
                         {selectedTickets}
@@ -187,10 +187,10 @@ export default function BusDetails() {
                         disabled={cannotIncrease}
                         onClick={increaseTickets}
                         className="
-                              w-10
-                              h-10
-                              sm:w-12
-                              sm:h-12
+                              w-6
+                              h-6
+                              sm:w-8
+                              sm:h-8
                               rounded-lg
                               bg-blue-500
                               text-white
@@ -217,7 +217,7 @@ export default function BusDetails() {
                         sm:w-auto
                         px-8
                         py-3
-                        bg-blue-400
+                        bg-blue-600
                         text-white
                         rounded-lg
                         font-semibold
