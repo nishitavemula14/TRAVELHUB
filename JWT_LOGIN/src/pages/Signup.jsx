@@ -42,9 +42,9 @@ return (
            <p className="mb-6 text-center text-sm text-slate-600"> Create an account to view bus details and book tickets.</p>
     
          <form className="space-y-4" onSubmit={handleSubmit}>
-           <TextInput label="Name" type="text" value={name} onChange={setName} required />
-           <TextInput label="Email" type="email" value={email} onChange={setEmail} required />
-           <TextInput label="Password" minLength={6} type="password" value={password} onChange={setPassword} required />
+           <TextInput label="Name" type="text" placeholder="Enter your name" value={name} onChange={setName} required />
+           <TextInput label="Email" type="email" placeholder="Enter your email" value={email} onChange={setEmail} required />
+           <TextInput label="Password" minLength={6} type="password" placeholder="Enter your password" value={password} onChange={setPassword} required />
               
               {error && <p className="rounded-md bg-red-50 px-3 py-2 text-sm font-medium text-red-600">{error}</p>}
               

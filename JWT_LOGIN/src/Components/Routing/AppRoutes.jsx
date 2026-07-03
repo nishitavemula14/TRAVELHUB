@@ -1,9 +1,9 @@
 import { Route, Routes } from "react-router-dom";
-import BusDetails from "../../pages/BusDetails.jsx";
-import BusSearch from "../../pages/BusSearch.jsx";
-import Login from "../../pages/Login.jsx";
-import NotFound from "../../pages/NotFound.jsx";
-import Signup from "../../pages/Signup.jsx";
+import BusDetails from "../../Pages/BusDetails.jsx";
+import BusSearch from "../../Pages/BusSearch.jsx";
+import Login from "../../Pages/Login.jsx";
+import NotFound from "../../Pages/NotFound.jsx";
+import Signup from "../../Pages/Signup.jsx";
 import AuthenticatedRoute from "./AuthenticatedRoute.jsx";
 
 
